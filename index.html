@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>General Knowledge Quizz</title>
+</head>
+
+<body>
+    <h1>HTML Quizz:</h1>
+    <div id="quiz">
+        <p id="question">
+            What's the biggest animal in the world?
+        </p>
+        <p>
+            <input class="ans1" type="button" value="African Elephant" onclick="wrong()" class="" /><br>
+            <input class="ans1"  type="button" value="Hippopotamus" onclick="wrong()" /><br>
+            <input  class="ans1" type="button" value="The blue whale" onclick="correct()" /><br>
+            <input  class="ans1"  type="button" value="Colossal Squid" onclick="wrong()" /><br>
+        </p>
+        <p id="question2">
+            Which country is brie cheese originally from?
+        </p>
+        <p>
+            <input type="button" value="Italy" onclick="wrong()" /><br>
+            <input type="button" value="Switzerland" onclick="wrong()" /><br>
+            <input type="button" value="Netherlands" onclick="wrong()" /><br>
+            <input type="button" value="France" onclick="correct()" /><br>
+        </p>
+        <p id="question3">
+            How many valves does the heart have?
+        </p>
+        <p>
+            <input type="button" value="2 valves" onclick="wrong()" /><br>
+            <input type="button" value="4 valves" onclick="correct()" /><br>
+            <input type="button" value="6 valves" onclick="wrong()" /><br>
+            <input type="button" value="8 valves" onclick="wrong()" /><br>
+        </p>
+        <p id="question4">
+            Who painted the Mona Lisa?
+        </p>
+        <p>
+            <input type="button" value="Pablo Picasso" onclick="wrong()" /><br>
+            <input type="button" value="Claude Monet" onclick="wrong()" /><br>
+            <input type="button" value="Leonardo da Vinci" onclick="correct()" /><br>
+            <input type="button" value="Édouard Manet" onclick="wrong()" /><br>
+        </p>
+        <p id="question5">
+            How many elements are there in the periodic table?
+        </p>
+        <p>
+            <input type="button" value="118 elements" onclick="correct()" /><br>
+            <input type="button" value="115 elements" onclick="wrong()" /><br>
+            <input type="button" value="100 elements" onclick="wrong()" /><br>
+            <input type="button" value="131 elements" onclick="wrong()" /><br>
+        </p>
+        <p id="question6">
+            What are two water signs in astrology?
+        </p>
+        <p>
+            <input type="button" value="Pisces, Aquarius" onclick="wrong()" /><br>
+            <input type="button" value="Cancer, Scorpio" onclick="correct()" /><br>
+            <input type="button" value="Leo, Virgo" onclick="wrong()" /><br>
+            <input type="button" value="Sagittarius, Cancer" onclick="wrong()" /><br>
+        </p>
+        <p id="question7">
+            Which planet is closest to the sun?
+        </p>
+        <p>
+            <input type="button" value="Venus" onclick="wrong()" /><br>
+            <input type="button" value="Jupiter" onclick="wrong()" /><br>
+            <input type="button" value="Saturn" onclick="wrong()" /><br>
+            <input type="button" value="Mercury" onclick="correct()" /><br>
+        </p>
+        <p id="question8">
+            Name one landlocked country in Europe:
+        </p>
+        <p>
+            <input type="button" value="Macedonia" onclick="correct()" /><br>
+            <input type="button" value="Romania" onclick="wrong()" /><br>
+            <input type="button" value="Bulgaria" onclick="wrong()" /><br>
+            <input type="button" value="France" onclick="wrong()" /><br>
+        </p>
+        
+    </div>
+    Scorul final este:
+    <p id="scor">0</p>
+    <script src="index.js"></script>
+</body>
+
+</html>
